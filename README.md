@@ -1,6 +1,6 @@
  Railway Ticket Reservation System
 
-This is a 10-mark prototype implementation of a **Railway Customer Management Software** developed in Java, containerized using Docker, and deployed on the Render free cloud platform.
+ Implementation of a **Railway Customer Management Software** developed in Java, containerized using Docker, and deployed on the Render free cloud platform.
 
  Developed in Java (JDK 17)
  Core functionality includes:
@@ -41,8 +41,8 @@ Steps:
 8. Build logs will show compilation and execution
 9. Output will be visible in logs (console-style output)
 
-🔗 Live URL: https://railwayticketreservation.onrender.com  
-(Note: Console app – no web page UI. View logs tab for output.)
+ Live URL: https://railwayticketreservation.onrender.com  
+ View logs tab for output.)
 
 Keerthana,Soundarya,Aarthi reserved a seat.  
 Keerthana,Soundarya,Aarthi made a payment of 350.0  
@@ -51,19 +51,19 @@ Train ID: T123, Model: Superfast
 Database [DB1] Response: Success | Data: Ticket booked for Keerthana,Soundarya,Aarthi
 
 
-🛠️ Troubleshooting Tips:
+ Troubleshooting Tips:
 
-• Problem: Page keeps loading  
-  ➤ Reason: CLI app, not HTML-based – check logs tab
+1. Problem: Page keeps loading  
+   Reason: CLI app, not HTML-based – check logs tab
 
-• Problem: Docker build fails  
-  ➤ Fix: Verify Java file paths and class names
+2. Problem: Docker build fails  
+   Fix: Verify Java file paths and class names
 
-• Problem: Logs not updating  
-  ➤ Fix: Click “Manual Deploy” to redeploy
+3. Problem: Logs not updating  
+   Fix: Click “Manual Deploy” to redeploy
 
-• Problem: App is slow to respond  
-  ➤ Fix: Free plans spin down on inactivity – wait 30–50 seconds
+4.Problem: App is slow to respond  
+  Fix: Free plans spin down on inactivity – wait 30–50 seconds
 
 
 👥 Team Members:
